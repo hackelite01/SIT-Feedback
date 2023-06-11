@@ -59,7 +59,7 @@ const Feedback = ({ scrollRef }) => {
   useEffect(() => {
     // Scroll to Top
     scrollRef.current.scrollIntoView()
-  }, [])
+  }, [scrollRef])
 
   return !location?.state ? null : (
     <>
