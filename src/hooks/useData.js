@@ -43,7 +43,7 @@ const useData = (uid) => {
     }
 
     return () => unsub && unsub()
-  }, [userData?.branch, userData?.sem, userData?.sec])
+  }, [userData?.branch, userData?.sem, userData?.sec, userData])
 
   return { userData, subLists }
 }
