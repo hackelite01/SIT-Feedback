@@ -92,7 +92,7 @@ const Home = ({ user }) => {
     if (!isDone && subLists?.length && status === 0) {
       addStatus()
     }
-  }, [completed, subLists, isDone, addStatus, status])
+  }, [completed, subLists, isDone, status])
 
   return (
     <>
