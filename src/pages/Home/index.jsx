@@ -54,7 +54,7 @@ const wrappercardVariants = {
 
 const deptList = {
   cse: 'COMPUTER SCIENCE',
-  is: 'INFORMATION SCIENCE',
+  is: 'INFORMATION TECHNOLOGY',
   me: 'MECHANICAL ENGINEERING',
   ece: 'ELECTRONICS AND COMMUNICATION',
   civil: 'CIVIL ENGINEERING',
