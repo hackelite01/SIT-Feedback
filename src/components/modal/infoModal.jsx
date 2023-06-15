@@ -49,18 +49,18 @@ const InfoModal = ({ setIsModal }) => {
         <FaTimes className="cancelInfo" onClick={() => setIsModal(false)} />
         <div className="infoModal">
           <p>
-            Welcome to sitfeedback a feedback application for SaIT. For data
+            Welcome to sitfeedback a feedback application for SIT. For data
             updation , delation , addition and other queries visit your
             respected department.Please give valid review for your own benifits.
           </p>
           <div>
             Developed by{' '}
             <a
-              href="https://canwebe.tech"
+              href="https://www.linkedin.com/in/mayankrajput2110/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              CanWeBe!
+              Mayank Rajput👻
             </a>{' '}
             © {new Date().getFullYear()}
           </div>
