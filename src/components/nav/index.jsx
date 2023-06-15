@@ -19,7 +19,7 @@ const Nav = () => {
           onClick={() => setIsModal((prev) => !prev)}
         />
 
-        <a className='adminLink' href='https://sitdashboard.netlify.app'>
+        <a className='adminLink' href='https://sitdashboard.vercel.app'>
           <FaUserShield />
           Admin
         </a>
