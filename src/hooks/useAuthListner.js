@@ -20,7 +20,7 @@ export default function useAuthListner() {
     })
 
     return () => listner()
-  }, [])
+  }, [firebaseApp])
 
   return { user }
 }
