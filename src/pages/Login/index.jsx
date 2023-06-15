@@ -54,7 +54,7 @@ const Login = ({ user }) => {
   const navigate = useNavigate()
   let pno = ''
 
-  const isValid = usn === '' || usn.length < 10
+  const isValid = usn === '' || usn.length < 12
   const otpInvalid = otp === '' || otp.length < 6
 
   //Handling Inputs
@@ -137,7 +137,7 @@ const Login = ({ user }) => {
     } else {
       setLoading(false)
       setSucces('')
-      toast.error(<b>No data found for USN: {usn.trim().toUpperCase()}</b>, {
+      toast.error(<b>No data found for Enrollment No.: {usn.trim().toUpperCase()}</b>, {
         id: toastId,
       })
       setError('No info found USN incorrect , Please contact department')
@@ -243,7 +243,7 @@ const Login = ({ user }) => {
                   autoComplete='off'
                   onChange={handleChange}
                 />
-                <label className='formLabel'>Enter Your USN</label>
+                <label className='formLabel'>Enter Your Enrollment No.</label>
               </div>
 
               <div id='captcha' className='captcha'></div>
