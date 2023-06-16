@@ -239,7 +239,7 @@ const Login = ({ user }) => {
                   placeholder=' '
                   value={usn}
                   required
-                  maxLength='10'
+                  maxLength='12'
                   autoComplete='off'
                   onChange={handleChange}
                 />
